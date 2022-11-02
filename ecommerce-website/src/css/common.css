@@ -26,3 +26,12 @@
     margin-left: 40px;
     cursor: pointer;
 }
+
+div.navbar {
+    padding: 20px 0;
+    background-color: lightgray;
+}
+
+a.navbar-brand {
+    font-size: 24px;
+}

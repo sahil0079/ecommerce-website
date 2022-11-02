@@ -1,0 +1,20 @@
+.login-wrapper {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.login-wrapper #loginBtn,
+.login-wrapper #signupBtn {
+    cursor: pointer;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.home-title {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
