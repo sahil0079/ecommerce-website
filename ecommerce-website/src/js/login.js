@@ -15,7 +15,7 @@ const signupEmail = getElement('signupEmail')
 const authErrMsg = getElement('authErrMsg')
 const succErrMsg = getElement('succErrMsg')
 
-const BASE_URL = 'https://ecommce-be.herokuapp.com/ecomm/api/v1'
+// const BASE_URL = 'https://ecommce-be.herokuapp.com/ecomm/api/v1'
 
 
 
@@ -127,4 +127,9 @@ function updateAuthErrorMsg(msg) {
 }
 function getElement(id) {
     return document.getElementById(id)
+}
+
+
+if (localStorage.getItem('username')) {
+    window.location.href = 'index.html'
 }

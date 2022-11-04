@@ -11,3 +11,16 @@
     margin-top: 20px;
     font-size: 18px;
 }
+
+.category-list .category-item {
+    border: 1px solid black;
+    box-shadow: 0 10px 15px black;
+    margin: 20px;
+    width: 150px;
+    background-color: black;
+}
+
+.category-list .category-item a {
+    font-size: 18px;
+    padding: 30px 20px;
+}
